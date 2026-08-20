@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acme Web Development - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header & Navigation -->
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1><span class="highlight">Acme</span> Web Development</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li class="current"><a href="index.html">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><button id="themeToggle" title="Toggle Dark/Light Mode">🌙</button></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Showcase / Hero Section -->
+    <section id="showcase">
+        <div class="container">
+            <h2>Web Development</h2>
+            <p>Building high-performance, responsive web applications with blazing-fast modern standards.</p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="content-section reveal">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Acme Web Development is a cutting-edge digital agency dedicated to transforming complex ideas into seamless, high-impact web solutions. We specialize in full-stack architecture, sleek UI/UX design, and robust performance optimization that elevates brands in the digital landscape.</p>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="content-section alt-bg reveal">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="services-grid">
+                <div class="service-box">
+                    <h3>Frontend Engineering</h3>
+                    <p>Creating interactive, mobile-friendly interfaces utilizing modern JavaScript frameworks and responsive CSS layouts.</p>
+                </div>
+                <div class="service-box">
+                    <h3>Backend Solutions</h3>
+                    <p>Developing secure databases, high-availability APIs, and server-side processing for your enterprise needs.</p>
+                </div>
+                <div class="service-box">
+                    <h3>UI/UX Optimization</h3>
+                    <p>Enhancing user retention and conversion rates with intuitive designs, clean typography, and fast layouts.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="content-section reveal">
+        <div class="container">
+            <h2>Featured Projects</h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <h3>E-Commerce Dashboard</h3>
+                    <p>A full-featured analytics and inventory dashboard built with modern JavaScript and responsive grids.</p>
+                    <a href="https://github.com/yourusername/ecommerce-dashboard" target="_blank" rel="noopener noreferrer" class="project-link">View on GitHub &rarr;</a>
+                </div>
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <h3>Corporate Brand Portal</h3>
+                    <p>An immersive digital workspace and corporate identity portal designed for high conversion and speed.</p>
+                    <a href="https://your-live-portfolio-site.com" target="_blank" rel="noopener noreferrer" class="project-link">Live Demo &rarr;</a>
+                </div>
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <h3>Real-Time SaaS App</h3>
+                    <p>A cloud-native application handling live data streams, user authentication, and interactive reporting.</p>
+                    <a href="https://github.com/yourusername/saas-app" target="_blank" rel="noopener noreferrer" class="project-link">View on GitHub &rarr;</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section id="newsletter" class="reveal">
+        <div class="container">
+            <h3>Subscribe To Our Newsletter</h3>
+            <form name="newsletter" method="POST" data-netlify="true">
+                <input type="email" name="email" placeholder="Enter Email..." required>
+                <button type="submit" class="button_1">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Acme Web Development, Copyright &copy; 2026</p>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" title="Go to top">&uarr;</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
