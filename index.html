@@ -14,7 +14,11 @@
     <header>
         <div class="container">
             <div id="branding">
-                <h1><span class="highlight">Acme</span> Web Development</h1>
+                <a href="index.html" style="display: flex; align-items: center; text-decoration: none;">
+                    <img src="assets/logo.jpg" alt="Acme Logo"
+                        style="height: 40px; margin-right: 10px; border-radius: 4px;">
+                    <h1><span class="highlight">Acme</span> Web Development</h1>
+                </a>
             </div>
             <nav>
                 <ul>
@@ -107,7 +111,7 @@
     <section id="newsletter" class="reveal">
         <div class="container">
             <h3>Subscribe To Our Newsletter</h3>
-            <form name="newsletter" method="POST" action="/?success=true" data-netlify="true">
+            <form name="newsletter" method="POST" action="/index.html" data-netlify="true">
                 <input type="email" name="email" placeholder="Enter Email..." required>
                 <button type="submit" class="button_1">Subscribe</button>
             </form>
