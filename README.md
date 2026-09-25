@@ -4,7 +4,7 @@ A modern, responsive, and high-performance personal portfolio website built to s
 
 ## 🚀 Live Demo
 
-Check out the live portfolio: [Netlify Live Site](https://jina-sahihi-la-site.netlify.app/)
+Check out the live portfolio: [Netlify Live Site](https://acme-webdev.netlify.app/)
 
 ## ✨ Features
 
